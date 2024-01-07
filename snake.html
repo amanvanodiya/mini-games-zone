@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snake.css" />
+    <script src="snake.js" defer></script>
+  </head>
+  <body>
+
+    <div id="backbutton">
+      <a href="Main_Home_Page.html"><button id="back"><img src="left-arrow.png" height="55px" width="55px"></button></a>
+   </div>
+
+    <canvas id="canvas"></canvas>
+    <div id="high-score"></div>
+    <div id="score"></div>
+   
+    <div id="controls">
+        <button id="show-grid">SHOW GRID</button>
+        <button id="pause">PAUSE</button>
+        <!-- <button id="pause" class="pause-active">PAUSE</button> -->
+        <button id="reset">RESET</button>
+        <button id="level_1">Level 1</button>
+        <button id="level_2">Level 2</button>
+        <button id="level_3">Level 3</button>
+    </div>
+    <div id="play"><span style="font-size: 3em;"></span></div>
+    <!-- <div id="channel"></div> -->
+  </body>
+</html>
+
+<style>
+  #back{
+   background-image: none;
+   border-radius: 50%;
+   margin: 10px;
+   padding: 4px;
+   position: absolute;
+   
+   
+  }
+</style>
